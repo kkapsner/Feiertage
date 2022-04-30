@@ -18,32 +18,33 @@ Alle anderen Feiertage sind durch die Länder festgelegt. Dabei gibt es 8 weiter
 
 [^2]: Zur Berechnung des Ostersonntags wird Spencers Osterformel verwendet: https://doi.org/10.1038/013487a0
 
-Die anderen Feiertage sind von Bundesland zu Bundesland verschieben. Es gibt sogar Feiertage, die von Gemeinde zu Gemeinde unterschiedlich sind (z.B. Mariä Himmelfahrt in Bayern[^3] oder das Friedensfest in Augsburg[^3])
+Die anderen Feiertage sind von Bundesland zu Bundesland verschieben. Es gibt sogar Feiertage, die von Gemeinde zu Gemeinde unterschiedlich sind (z.B. Mariä Himmelfahrt in Bayern[^3][^4] oder das Friedensfest in Augsburg[^3])
 
 [^3]: https://www.gesetze-bayern.de/Content/Document/BayFTG-1 Stand 29.04.2022
+[^4]: https://www.statistik.bayern.de/statistik/gebiet_bevoelkerung/zensus/himmelfahrt/index.php
 
 ## verpflichtende Parameter
 
 ## region
 
-Code der Region, für die die Feiertage ausgegeben werden sollen. Folgende Codes sind unterstützt[^4]:
+Code der Region, für die die Feiertage ausgegeben werden sollen. Folgende Codes sind unterstützt[^5]:
 
-[^4]: https://www.destatis.de/DE/Methoden/abkuerzung-bundeslaender-DE-EN.html Stand 29.04.2022
+[^5]: https://www.destatis.de/DE/Methoden/abkuerzung-bundeslaender-DE-EN.html Stand 29.04.2022
 
 * BB: Brandenburg
 * BE: Berlin
 * BW: Baden-Württemberg
   * BW-Schule: schulfreie Tage in Baden-Württemberg
-* BY: Bayern[^3][^5]
-  * BY-A: Stadt Augsburg[^3][^5]
-  * BY-k: Landkreis in Bayern mit vorwiegend katholischer Bevölkerung[^3][^5]
-  * BY-Schule: schulfreie Tage in Bayern[^3][^5][^6]
-  * BY-A-Schule: schulfreie Tage der Stadt Augsburg[^3][^5][^6]
+* BY: Bayern[^3][^6]
+  * BY-A: Stadt Augsburg[^3][^6]
+  * BY-k: Landkreis in Bayern mit vorwiegend katholischer Bevölkerung[^3][^4][^6]
+  * BY-Schule: schulfreie Tage in Bayern[^3][^6][^7]
+  * BY-A-Schule: schulfreie Tage der Stadt Augsburg[^3][^6][^7]
 * HB: Bremen
 * HE: Hessen
 * HH: Hamburg
 * MV: Mecklenburg-Vorpommern
-* NI: Niedersachsen [^7]
+* NI: Niedersachsen [^8]
 * NW: Nordrhein-Westfalen
 * RP: Rheinland-Pfalz
 * SH: Schleswig-Holstein
@@ -53,11 +54,11 @@ Code der Region, für die die Feiertage ausgegeben werden sollen. Folgende Codes
 * TH: Thüringen
 
 
-[^5]: https://www.stmi.bayern.de/suv/bayern/feiertage/index.php Stand 29.04.2022
+[^6]: https://www.stmi.bayern.de/suv/bayern/feiertage/index.php Stand 29.04.2022
 
-[^6]: https://www.gesetze-bayern.de/Content/Document/BayFTG-4 Stand 29.04.2022
+[^7]: https://www.gesetze-bayern.de/Content/Document/BayFTG-4 Stand 29.04.2022
 
-[^7]: https://www.mi.niedersachsen.de/startseite/themen/allgemeine_angelegenheiten_des_inneren/feiertagsrecht/feiertagsgesetz-61491.html Stand 30.04.2022
+[^8]: https://www.mi.niedersachsen.de/startseite/themen/allgemeine_angelegenheiten_des_inneren/feiertagsrecht/feiertagsgesetz-61491.html Stand 30.04.2022
 
 ## optionale Parameter
 
