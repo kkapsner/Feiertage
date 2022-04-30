@@ -1,0 +1,82 @@
+[
+	{
+		"short": "BB",
+		"name": "Brandenburg"
+	},
+	{
+		"short": "BE",
+		"name": "Berlin"
+	},
+	{
+		"short": "BW",
+		"name": "Baden-Württemberg"
+	},
+	{
+		"short": "BY",
+		"name": "Bayern"
+	},
+	{
+		"short": "BY-A",
+		"name": "Stadt Augsburg"
+	},
+	{
+		"short": "BY-k",
+		"name": "Gemeinde in Bayern mit vorwiegend katholischer Bevölkerung"
+	},
+	{
+		"short": "BY-Schule",
+		"name": "schulfreie Tage in Bayern"
+	},
+	{
+		"short": "BY-A-Schule",
+		"name": "schulfreie Tage der Stadt Augsburg"
+	},
+	{
+		"short": "HB",
+		"name": "Bremen"
+	},
+	{
+		"short": "HE",
+		"name": "Hessen"
+	},
+	{
+		"short": "HH",
+		"name": "Hamburg"
+	},
+	{
+		"short": "MV",
+		"name": "Mecklenburg-Vorpommern"
+	},
+	{
+		"short": "NI",
+		"name": "Niedersachsen"
+	},
+	{
+		"short": "NW",
+		"name": "Nordrhein-Westfalen"
+	},
+	{
+		"short": "RP",
+		"name": "Rheinland-Pfalz"
+	},
+	{
+		"short": "SH",
+		"name": "Schleswig-Holstein"
+	},
+	{
+		"short": "SL",
+		"name": "Saarland"
+	},
+	{
+		"short": "SN",
+		"name": "Sachsen"
+	},
+	{
+		"short": "ST",
+		"name": "Sachsen-Anhalt"
+	},
+	{
+		"short": "TH",
+		"name": "Thüringen"
+	}
+]

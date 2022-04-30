@@ -1,0 +1,157 @@
+[
+	{
+		"name": "Neujahr",
+		"date": "-01-01",
+		"month": 1,
+		"day": 1,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "fixed"
+	},
+	{
+		"name": "Heilige Drei K\u00F6nige",
+		"date": "-01-06",
+		"month": 1,
+		"day": 6,
+		"states": ["BW", "BY", "SH"],
+		"type": "fixed"
+	},
+	{
+		"name": "Tag der Arbeit",
+		"date": "-05-01",
+		"month": 5,
+		"day": 1,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "fixed"
+	},
+	{
+		"name": "Mari\u00E4 Himmelfahrt",
+		"date": "-08-15",
+		"month": 8,
+		"day": 15,
+		"states": ["BY-k", "BY-A", "BY-A-Schule", "BY-Schule", "SL"],
+		"type": "fixed"
+	},
+	{
+		"name": "Friedensfest",
+		"date": "-08-08",
+		"month": 8,
+		"day": 8,
+		"states": ["BY-A", "BY-A-Schule"],
+		"type": "fixed"
+	},
+	{
+		"name": "Tag der Deutschen Einheit",
+		"date": "-10-03",
+		"month": 10,
+		"day": 3,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "fixed"
+	},
+	{
+		"name": "Reformationstag",
+		"date": "-10-31",
+		"month": 10,
+		"day": 31,
+		"states": ["BB", "BW-Schule", "HB", "HH", "MV", "NI", "SH", "SN", "ST", "TH"],
+		"type": "fixed"
+	},
+	{
+		"name": "Allerheiligen",
+		"date": "-11-01",
+		"month": 11,
+		"day": 1,
+		"states": ["BW", "BY", "NW", "RP", "SL"],
+		"type": "fixed"
+	},
+	{
+		"name": "Erster Weihnachtstag",
+		"date": "-12-25",
+		"month": 12,
+		"day": 25,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "fixed"
+	},
+	{
+		"name": "Zweiter Weihnachtstag",
+		"date": "-12-26",
+		"month": 12,
+		"day": 26,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "fixed"
+	},
+	{
+		"name": "Karfreitag",
+		"date": "Ostersonntag -2",
+		"distanceToEastern": -2,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "eastern"
+	},
+	{
+		"name": "Ostersonntag",
+		"date": "Ostersonntag +0",
+		"distanceToEastern": 0,
+		"states": ["BB"],
+		"type": "eastern"
+	},
+	{
+		"name": "Ostermontag",
+		"date": "Ostersonntag +1",
+		"distanceToEastern": 1,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "eastern"
+	},
+	{
+		"name": "Christi Himmelfahrt",
+		"date": "Ostersonntag +39",
+		"distanceToEastern": 39,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "eastern"
+	},
+	{
+		"name": "Pfingstsonntag",
+		"date": "Ostersonntag +49",
+		"distanceToEastern": 49,
+		"states": ["BB"],
+		"type": "eastern"
+	},
+	{
+		"name": "Pfingstmontag",
+		"date": "Ostersonntag +50",
+		"distanceToEastern": 50,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "eastern"
+	},
+	{
+		"name": "Fronleichnam",
+		"date": "Ostersonntag +60",
+		"distanceToEastern": 60,
+		"states": ["BW", "BY", "HE", "NW", "RP", "SL"],
+		"type": "eastern"
+	},
+	{
+		"name": "Bu\u00DF- und Bettag",
+		"date": "Mittwoch vor 23.11.",
+		"inWeek": {
+			"start": {
+				"month": 11,
+				"day": 16
+			},
+			"end": {
+				"month": 11,
+				"day": 22
+			},
+			"weekday": 3
+		},
+		"states": ["BY-Schule", "SN"],
+		"type": "inWeek"
+	},
+	{
+		"name": "Reformationstag im Lutherjahr",
+		"date": "2017-10-31",
+		"year": 2017,
+		"month": 10,
+		"day": 31,
+		"states": ["BB", "BE", "BW", "BY", "HB", "HE", "HH", "MV", "NI", "NW", "RP", "SH", "SL", "SN", "ST", "TH"],
+		"type": "once"
+	}
+]
